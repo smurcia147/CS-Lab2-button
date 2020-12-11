@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+
+	</title>
+</head>
+<body>
+
+
+<script >
+	
+	
+
+	function checkcorrect(p1) {
+		
+
+		if(p1==random){document.writeln(p1 + " is the correct number")}
+			else{
+				while(p1!=random){
+					p1=window.prompt("try again")
+					if (p1==random) {document.writeln("finally you got the correct: "+ p1 )}
+				}
+			}
+		
+		
+	}
+
+
+var random
+random= Math.floor((Math.random()*10)+1)
+
+var yours 
+	yours = window.prompt("Please enter your number")
+	yours= parseInt(yours)	
+
+
+checkcorrect(yours)
+	
+
+
+
+
+
+
+</script>
+</body>
+</html>
